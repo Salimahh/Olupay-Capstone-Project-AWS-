@@ -52,7 +52,7 @@ make it possible to find exactly what went wrong and when.
 Send a transaction through the live API:
 
 ```bash
-curl -X POST https://https://nwi8psk0j1.execute-api.us-east-1.amazonaws.com/transaction.execute-api.us-east-1.amazonaws.com/transaction \
+curl -X POST https://nwi8psk0j1.execute-api.us-east-1.amazonaws.com/transaction.execute-api.us-east-1.amazonaws.com/transaction \
   -H "Content-Type: application/json" \
   -d '{"transactionId":"TXN001","merchantId":"MERCH001","amount":50000}'
 ```
